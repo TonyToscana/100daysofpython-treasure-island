@@ -28,15 +28,15 @@ print("Your mission is to find the treasure.")
 #Write your code below this line 👇
 
 print("You wake up and find yourself in the middle of a deserted island.")
-decision = input('Where do you want to go? "left" or "right" side of the island? ').lower()
+decision = input('Where do you want to go? "left" or "right" side of the island?\n').lower()
 
 if decision == "left":
   print("You are at the beach in the left side of the island.")
-  decision = input('What do you want to do? "wait" or "swim" across the ocean? ').lower()
+  decision = input('What do you want to do? "wait" or "swim" across the ocean?\n').lower()
 
   if decision == "wait":
     print("Suddenly three coloured doors appear in front of you.")
-    decision = input('Which one do you want to go through? "red", "blue" or "yellow" door? ').lower()
+    decision = input('Which one do you want to go through? "red", "blue" or "yellow" door?\n').lower()
 
     if decision == "yellow":
       print("Found the treasure chest. You Win!")
