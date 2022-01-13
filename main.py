@@ -41,7 +41,7 @@ if decision == "left":
     if decision == "yellow":
       print("Found the treasure chest. You Win!")
     elif decision == "blue":
-      print("You fell into a pound and were eaten by beasts. Game Over.") 
+      print("You fell into a pond and were eaten by beasts. Game Over.") 
     elif decision == "red":
       print("You walked into the depths of hell and were burned by fire. Game Over.")
     else:
